@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="icon" href="snake_logo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+    <style>
+        canvas {
+            margin: 0 auto;
+            display: block;
+/*            padding-top: 8%;*/
+        }
+
+        body {
+            font-family: kalam;
+        }
+        h1{
+            color: #036f03;
+        }
+        hr{
+            border: 2px solid #036f03;
+            width: 40%;
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="display-4 text-center pt-3">Snake Game 🐍 </h1>
+        <hr>
+        <div class="row">
+            <div class="col-12">
+            <canvas id="snake" width="608" height="608"></canvas>
+            </div>
+        </div>
+        <script src="logic.js"></script>
+    </div>
+</body>
+
+</html>
